@@ -1,17 +1,30 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.katy.practica2.AFragment"
-    android:background="@color/colorAccent">
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
-<TextView
+<EditText
+    android:id="@+id/input_message"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:textSize="24dp"
     android:gravity="center"
     android:textColor="@android:color/white"
-    android:text="@string/fragmentA"/>
+    android:text="@string/escribeMensaje"/>
+    <Button
+        android:id="@+id/enviar_mesnsaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"/>
 
-</FrameLayout>
+
+
+
+
+</LinearLayout>
