@@ -14,12 +14,12 @@
     android:textSize="24dp"
     android:gravity="center"
     android:textColor="@android:color/white"
-    android:text="@string/escribeMensaje"/>
+    android:hint="@string/escribeMensaje"/>
     <Button
         android:id="@+id/enviar_mesnsaje"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mensaje"
+        android:text="Enviar"
         android:layout_gravity="center_horizontal"
         android:layout_margin="15dp"/>
 
